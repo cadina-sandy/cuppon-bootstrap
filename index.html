@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Libreria de googlefonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <!--Libreria de awesome-->
+    <script src="https://kit.fontawesome.com/b728a2a873.js" crossorigin="anonymous"></script>
+    <title>Ejercicio n4 de Sandy Cadin</title>
+    <!--CSS de bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!--CSS propio-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+  </head>
+
+  <body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+        <img src="./assets/img/logo-white.png" alt="cuppon" height="30">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+         <a class="nav-link active text-white" href="#">Home</a>
+        <li class="nav-item">
+          <a class="nav-link active text-white-50" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active text-white-50" href="#">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!--sección de cards-->
+<section class="container my-5">
+  <div class="row g-4">
+
+    <!-- Card 1 -->
+    <article class="col-12 col-md-6 col-lg-4">
+      <div class="card h-100">
+        <img src="https://images.unsplash.com/photo-1644248423441-bc7c5dcebeb6?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dhttps://images.unsplash.com/photo-1622658641558-235f26dd270b?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="Flores">
+        <div class="card-body">
+          <h5 class="card-title">Es un ramo bien romántico y suave, muy típico para regalos elegantes o ocasiones especiales </h5>
+          <p class="card-text text-secondary">Ramo Antonella</p>
+          <p class="text-secondary mb-2">
+            <i class="fas fa-map-marker-alt"></i>
+            Av. Las Condes 7180 Oficina 78
+          </p>
+          <hr>
+          <div class="d-flex justify-content-end gap-2">
+            <span class="text-secondary">$89.990</span>
+            <span class="text-success fw-bold">$36.990</span>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- Card 2 -->
+    <article class="col-12 col-md-6 col-lg-4">
+      <div class="card h-100">
+        <img src="https://plus.unsplash.com/premium_photo-1679430887921-31e1047e5b55?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="Spa">
+        <div class="card-body">
+          <h5 class="card-title">Un espacio diseñado para desconectar, renovar energías y reencontrarte con tu bienestar interior</h5>
+          <p class="card-text text-secondary">Spa Mis Sentidos</p>
+          <p class="text-secondary mb-2">
+            <i class="fas fa-map-marker-alt"></i>
+            Av. Las gardenias 1220, Lo Espejo
+          </p>
+          <hr>
+          <div class="d-flex justify-content-end gap-2">
+            <span class="text-secondary">124.990</span>
+            <span class="text-success fw-bold">$97.000</span>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- Card 3 -->
+    <article class="col-12 col-md-6 col-lg-4">
+      <div class="card h-100">
+        <img src="https://images.unsplash.com/photo-1519307212971-dd9561667ffb?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="Romance">
+        <div class="card-body">
+          <h5 class="card-title">Un refugio para dos, donde el tiempo se detiene y cada instante se convierte en un recuerdo inolvidable</h5>
+          <p class="card-text text-secondary">Escapada Romántica</p>
+          <p class="text-secondary mb-2">
+            <i class="fas fa-map-marker-alt"></i>
+            Av. Providencia 5566
+          </p>
+          <hr>
+          <div class="d-flex justify-content-end gap-2">
+            <span class="text-secondary">$99.000</span>
+            <span class="text-success fw-bold">$68.000</span>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- Card 4 -->
+    <article class="col-12 col-md-6 col-lg-4">
+      <div class="card h-100">
+        <img src="https://plus.unsplash.com/premium_photo-1673138254242-e0261eb4de2d?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="Chocolates">
+        <div class="card-body">
+          <h5 class="card-title">Una experiencia de sabor intensa y sofisticada, donde cada bocado revela el arte del chocolate en su máxima expresión</h5>
+          <p class="card-text text-secondary">Chocolatería Premium</p>
+          <p class="text-secondary mb-2">
+            <i class="fas fa-map-marker-alt"></i>
+            Las estrellas 2084 Torre B, Santiago
+          </p>
+          <hr>
+          <div class="d-flex justify-content-end gap-2">
+            <span class="text-secondary">$49.990</span>
+            <span class="text-success fw-bold">$39.990</span>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- Card 5 -->
+    <article class="col-12 col-md-6 col-lg-4">
+      <div class="card h-100">
+        <img src="https://images.unsplash.com/photo-1554555819-f722cb0c01c5?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHBvcnRlJTIwZGUlMjBwZWxvJTIwcGVyc29uYXxlbnwwfHwwfHx8MA%3D%3D" class="card-img-top" alt="Pelo">
+        <div class="card-body">
+          <h5 class="card-title">Un corte de precisión que realza tu estilo, con atención al detalle y una experiencia de cuidado superior</h5>
+          <p class="card-text text-secondary">Salon Supreme</p>
+          <p class="text-secondary mb-2">
+            <i class="fas fa-map-marker-alt"></i>
+            av. irarrazaval 2030, Ñuñoa
+          </p>
+          <hr>
+          <div class="d-flex justify-content-end gap-2">
+            <span class="text-secondary">69.900</span>
+            <span class="text-success fw-bold">$39.000</span>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- Card 6 -->
+    <article class="col-12 col-md-6 col-lg-4">
+      <div class="card h-100">
+        <img src="https://images.unsplash.com/photo-1415369629372-26f2fe60c467?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="Mascotas">
+        <div class="card-body">
+          <h5 class="card-title">Cuidado dedicado y lleno de cariño, porque tu mascota merece atención, bienestar y confianza en cada momento</h5>
+          <p class="card-text text-secondary">PetLife</p>
+          <p class="text-secondary mb-2">
+            <i class="fas fa-map-marker-alt"></i>
+            Las encinas 7566, Santiago Centro
+          </p>
+          <hr>
+          <div class="d-flex justify-content-end gap-2">
+            <span class="text-secondary">$49.990</span>
+            <span class="text-success fw-bold">$29.990</span>
+          </div>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</section>
+<!--formulario + grilla-->
+
+<section class="bg-success text-white py-5">
+  <div class="container text-center">
+
+    <h4 class="mb-4">Recibe cupones en tu correo</h4>
+
+    <form>
+
+      <!-- Nombre -->
+      <div class="mb-3">
+        <input 
+          type="text" 
+          class="form-control" 
+          placeholder="Nombre"
+        >
+      </div>
+
+      <!-- Email -->
+      <div class="mb-3">
+        <input 
+          type="email" 
+          class="form-control" 
+          placeholder="Correo Electrónico"
+        >
+      </div>
+
+      <!-- Botón -->
+      <button type="submit" class="btn btn-light mt-2">
+        Enviar
+      </button>
+
+    </form>
+
+  </div>
+</section>
+<!--Footer-->
+  <footer class="text-center py-4">
+  <img src="./assets/img/logo-black.png" alt="Cuppon" height="25" class="mb-2">
+
+  <p class="text-secondary mb-0">
+    © 2018 Cuppon Latam. Todos los derechos reservados.
+  </p>
+</footer>
+
+ <!--JS de bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
